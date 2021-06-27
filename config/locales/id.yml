@@ -1,0 +1,55 @@
+id :
+  store:
+    index:
+      title_html: "Katalog Kami"
+      add_html: "Tambah ke Keranjang"
+
+  layouts:
+    application:
+      title: "Ecommerce"
+      home: "Beranda"
+      questions: "Pertanyaan"
+      news: "Berita"
+      contact: "Hubungi"
+      login: "Masuk"
+
+  carts:
+    cart:
+      title: "Keranjang"
+      empty: "Hapus Keranjang"
+      checkout: "Selesaikan Pembelian"
+
+  orders:
+    new:
+        legend: "Silakan Masukkan Data diri Anda"
+    form:
+      name: "Nama"
+      address_html: "Alamat"
+      email: "E-mail"
+      pay_type: "Pembayaran Via"
+      pay_prompt_html: "Pilih Metode Pembayaran"
+      submit: "Buat Pesanan"
+      pay_types:
+        check: "Check"
+        credit_card: "Kartu Kredit"
+        purchase_order: "Pesanan Pembelian"
+      check_pay_type:
+        routing_number: "Routing #"
+        account_number: "Account #"
+      credit_card_pay_type:
+        cc_number: "CC #"
+        expiration_date: "Expiry"
+      purchase_order_pay_type:
+        po_number: "PO #"
+  
+  activerecord:
+    models:
+      order: "Pesanan"
+    attributes:
+      order:
+        address: "Alamat"
+        name: "Nama"
+        email: "E-mail"
+        pay_type: "Metode Pembayaran"
+
+  thanks: "Terimakasih Sudah Memesan"

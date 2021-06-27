@@ -1,0 +1,47 @@
+.store{
+    max-width: 80em;
+    ul.catalog{
+        border-top: solid 0.250em;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li{
+            padding: 1em;
+            margin: 0;
+            border-bottom: solid thin #ddd;
+            &::after{
+                clear: both;
+                content: "";
+                display: block;
+            }
+            img{
+                max-width: 200px;
+                float: left;
+                padding: 1em;
+                margin-right: 1em;
+                margin-bottom: 1em;
+                box-shadow: 0.17em 0.17em 0.35em 0px rgba(0,0,0,0.75);
+            }
+            p{
+                display: flex;
+            }
+            .price{
+                font-size: 1.4em;
+            }
+            form, div{
+                display: inline;
+            }
+            input[type="submit"] {
+                background-color: #1c2b2d;
+                border-radius: 0.354em;
+                color: white;
+                padding: 0.2em 0.5em;
+            }
+            input[type="submit"]:hover {
+                background-color: rgb(255, 123, 0);
+                cursor: pointer;
+                transition: .1s;
+            }
+        }
+    }
+}
